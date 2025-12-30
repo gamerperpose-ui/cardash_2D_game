@@ -5,7 +5,7 @@ import math
 pygame.init()
 def hit( x, y, cx, cy):
     distance = math.sqrt(math.pow(x-cx,2) + math.pow(y-cy,2))
-    if distance < 50:
+    if distance < 75:
         return True
     else:
         return False 
